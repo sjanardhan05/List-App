@@ -9,14 +9,15 @@
 
 body{
     background: url(Img/img4.jpg) no-repeat center center/cover;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container{
-    height: 90vh;
+    border: 1px solid black;
+    height: 85vh;
     display: grid;
     grid-template-rows: 77px auto;
     grid-gap: 20px;
@@ -29,7 +30,6 @@ body{
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 0 0 3px;
-
     display: flex;
 }
 
@@ -62,7 +62,8 @@ input{
 }
 
 #task-container{
-    height: 75vh;
+    border: 1px solid rgb(128, 31, 31);
+    height: 70vh;
     width: 350px;
     display: flex;
     flex-direction: column-reverse;
