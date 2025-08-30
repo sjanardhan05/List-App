@@ -16,7 +16,6 @@ body{
 }
 
 .container{
-    border: 1px solid black;
     height: 85vh;
     display: grid;
     grid-template-rows: 77px auto;
@@ -62,7 +61,6 @@ input{
 }
 
 #task-container{
-    border: 1px solid rgb(128, 31, 31);
     height: 70vh;
     width: 350px;
     display: flex;
