@@ -127,3 +127,9 @@ input{
     color: #fff;
 }
 
+@media(max-width: 349px){
+    #add-task-container{
+        width: 320px;
+    }
+}
+
