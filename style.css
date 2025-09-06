@@ -128,7 +128,7 @@ input{
 
 @media(max-width: 349px){
     body{
-        height: 85vh;
+        height: 82vh;
     }
     #add-task-container{
         width: 310px;
