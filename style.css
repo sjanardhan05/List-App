@@ -129,7 +129,15 @@ input{
 
 @media(max-width: 349px){
     #add-task-container{
-        width: 320px;
+        width: 310px;
+    }
+
+    #task-container{
+        width: 310px;
+    }
+    input{
+        flex: 4;
+        width: 240px;
     }
 }
 
