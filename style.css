@@ -139,5 +139,8 @@ input{
         flex: 4;
         width: 240px;
     }
+    #container{
+        height: 80vh;
+    }
 }
 
