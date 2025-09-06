@@ -77,7 +77,6 @@ input{
     /* height: 64px; */
     background-color: #fff;
     border-radius: 10px;
-
     padding: 5px;
     margin: 3px 0px;
     display: flex;
@@ -128,19 +127,24 @@ input{
 }
 
 @media(max-width: 349px){
+    body{
+        height: 85vh;
+    }
     #add-task-container{
         width: 310px;
     }
 
     #task-container{
         width: 310px;
+        height: 65vh;
     }
     input{
         flex: 4;
         width: 240px;
     }
-    #container{
+    .container{
         height: 80vh;
+        /* border: 1px solid black; */
     }
 }
 
